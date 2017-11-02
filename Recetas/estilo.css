@@ -1,0 +1,72 @@
+#titulo-sitio {
+	font-size: 4em;
+	color: #D39A0A;
+	text-shadow: 2px 2px #BC8609;
+}
+
+.img_receta {
+	position: absolute;
+	z-index: -1;©DC Comi
+}
+
+.receta {
+	display: inline-block;
+	position: relative;
+	overflow: hidden;
+}
+
+div.receta:hover{
+	opacity: 0.8;
+}
+
+#mini_recetas h3{
+	font-variant: small-caps;
+}
+
+#categoria {
+	color: #black;
+}
+
+#mini_recetas div{
+	border: 1pt solid #2D3035;
+	border-radius: 5px;
+	margin: 10px;
+	width: 150px;
+}
+
+.receta h3 {
+	padding-bottom: 40px;
+	padding-left: 15px;
+}
+
+#recetas > div {
+	overflow: auto;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	border-bottom: 1pt dotted #E0D2B1;
+}
+
+img.imagen_receta{
+	width: 25%;
+	float: left;
+	padding-right: 10px;
+}
+
+a {
+	color: #DB990A;
+}
+
+a:hover {
+	color: #EDC163;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #7C652E;
+}
+
+body {
+	margin: 2% 25% 2%;
+	background: url(food.jpg);
+	background-size: cover;
+}
