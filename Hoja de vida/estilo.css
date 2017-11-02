@@ -1,0 +1,65 @@
+header > h1 {
+	text-align: center;
+}
+
+#contenido > div.bloque {
+	border: 1pt solid #cbccc1;
+	margin: 5px;
+	padding: 10px;
+}
+
+span.imagen img {
+	width: 13%;
+	float: left;
+	padding-right: 10px;
+}
+
+div.bloque {
+	overflow: auto;
+}
+
+div#datos > h2 {
+	text-align: center;
+}
+
+div.habilidad > div {
+	display: inline-block;
+	border: 1pt solid #cbccc1;
+}
+
+div.habilidad {
+	display: inline-block;
+}
+
+.numero {
+	border-radius: 25px;
+	background: #134CA3;
+	color: white;
+	padding: 5px;
+	height: 22px;
+	width: 22px;
+	text-align: center;
+	position: relative;
+}
+
+.topic {
+	border-radius: 25px;
+	background: #E0E0E0;
+	color: black;
+	padding: 5px;
+	height: 22px;
+	width: 80px;
+	box-shadow: 2px 3px 3px #888888;
+	padding-left: 35px;
+	margin-left: -35px;
+	margin-right: 40px;
+}
+
+body {
+	margin: 2% 25% 2%;
+	font-family: Arial;
+}
+
+ul {
+	list-style-type: none;
+}
