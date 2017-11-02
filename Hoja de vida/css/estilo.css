@@ -2,23 +2,11 @@ header > h1 {
 	text-align: center;
 }
 
-#contenido > div.bloque {
-	border: 1pt solid #cbccc1;
-	margin: 5px;
-	padding: 10px;
-}
-
-span.imagen img {
-	width: 13%;
-	float: left;
-	padding-right: 10px;
-}
-
 div.bloque {
 	overflow: auto;
 }
 
-div#datos > h2 {
+article#datos > h2 {
 	text-align: center;
 }
 
@@ -35,28 +23,27 @@ div.habilidad {
 	border-radius: 25px;
 	background: #134CA3;
 	color: white;
-	padding: 5px;
-	height: 22px;
-	width: 22px;
+	height: 38px;
+	width: 38px;
+	position: absolute;
 	text-align: center;
-	position: relative;
+	line-height: 35px;
 }
 
 .topic {
 	border-radius: 25px;
 	background: #E0E0E0;
 	color: black;
-	padding: 5px;
-	height: 22px;
-	width: 80px;
+	padding: 10px;
+	height: 36px;
+	width: 85%;
 	box-shadow: 2px 3px 3px #888888;
-	padding-left: 35px;
-	margin-left: -35px;
+	padding-left: 50px;
+	margin-left: -1px;
 	margin-right: 40px;
 }
 
 body {
-	margin: 2% 25% 2%;
 	font-family: Arial;
 }
 
