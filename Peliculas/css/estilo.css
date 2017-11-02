@@ -6,14 +6,14 @@ header > h1 {
 	color: #414239;
 }
 
-div.pelicula .titulo {
+div.col-9 .titulo {
 	font-family: Lobster;
 	font-size: 2.5em;
 	color: #9E0947;
 	margin-left: 8px;
 }
 
-div.pelicula {
+div.col-9 {
 	border: 1px dotted #D7D8CB;
 	border-bottom: thick solid #404040;
 	overflow: auto;
@@ -31,7 +31,7 @@ img:hover{
 	opacity: 0.8;
 }
 
-div.pelicula .sinopsis {
+div.col-9 .sinopsis {
 	font-family: Verdana;
 }
 
@@ -74,8 +74,4 @@ iframe {
 .header {
 	font-size: 1em;
 	color: #CE105C;
-}
-
-body{
-	margin: 1% 15% 1%;
 }
